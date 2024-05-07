@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jersey+20+Charted&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.width {
+    margin: 0 auto;
+    width: 76%;
+    padding-left: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    position: fixed;
+    padding: 6px;
+    background-image: linear-gradient(to right, #000000, darkblue);
+}
+
+.block-in {
+    display: inline-block;
+    width: 330px;
+    margin-left: 55px;
+    border-radius: 12px;
+}
+
+.block-in button {
+    background: none;
+    transition: 0.2s;
+    color: white;
+}
+
+.internal-header-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+.width a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 19px;
+    border-radius: 12%;
+    position: relative;
+    top: 9px;
+    color: #1E91B3;
+    margin-left: 64px;
+}
+
+
+
+.width a:hover {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.internal-header-div img {
+    width: 50px;
+    border: 3px solid white;
+    padding: 3px;
+    border-radius: 50%;
+    margin-left: 12px;
+}
+
+.internal-header-div ul {
+    display: inline-block;
+}
+
+#section-one {
+    height: 100%;
+    background-image: url(https://cdn.openart.ai/published/7VN1LOMrynPA7T5vRoKI/2O7uBmkx_rKbJ_1024.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 28px;
+    width: 100%;
+
+}
+
+.cover {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.595);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.cover h1 {
+    background: linear-gradient(to right, #000000, darkblue);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 145px;
+}
+
+.stickey {
+    width: 70px;
+    position: fixed;
+    bottom: 4px;
+    right: 7px;
+    border: 3px solid white;
+    padding: 4px;
+    border-radius: 19px;
+    cursor: pointer;
+}
+
+.stickey:hover {
+    border: 3px solid;
+    transition: 0.3s linear;
+    padding: 3px;
+    width: 80px;
+    background: linear-gradient(to right, #000000, darkblue);
+}
