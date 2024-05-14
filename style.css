@@ -89,7 +89,8 @@ header {
 
 #section-one {
     height: 100%;
-    background-image: url();
+    background-image: url(Screenshot 2024-05-14 193835.png
+);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -112,13 +113,7 @@ header {
     color: white;
 }
 
-.cover h1 {
-    background: linear-gradient(to right, #000000, darkblue);
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    font-size: 145px;
-}
+
 
 .stickey {
     width: 70px;
