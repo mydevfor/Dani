@@ -89,22 +89,13 @@ header {
 
 #section-one {
     height: 100%;
-    background-image: url(Screenshot 2024-05-14 193835.png
-);
+    background-image: url(cdn.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 28px;
     width: 100%;
 
-}
-
-#section-one h1{
-        background: linear-gradient(to right, #000000, darkblue);
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    font-size: 145px;
 }
 
 .white-friend img {
@@ -121,7 +112,13 @@ header {
     color: white;
 }
 
-
+.cover h1 {
+    background: linear-gradient(to right, #000000, darkblue);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 145px;
+}
 
 .stickey {
     width: 70px;
