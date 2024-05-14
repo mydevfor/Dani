@@ -89,13 +89,17 @@ header {
 
 #section-one {
     height: 100%;
-    background-image: url(https://raw.githubusercontent.com/mydevfor/Dani/main/dani-wed-car.png);
+    background-image: url(cdn.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 28px;
     width: 100%;
 
+}
+
+.white-friend img {
+    border-radius: 50px;
 }
 
 .cover {
@@ -133,4 +137,167 @@ header {
     padding: 3px;
     width: 80px;
     background: linear-gradient(to right, #000000, darkblue);
+}
+
+.dani-div {
+    width: 100%;
+}
+
+.dani-div img {
+    border-radius: 50%;
+}
+
+.dani-div h1 {
+    background: linear-gradient(to right, #030058, darkblue);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 85px;
+}
+
+.some-text {
+    width: 45%;
+    text-align: justify;
+}
+
+.some-text h3 {
+    color: white;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 25px;
+}
+
+
+.section-cool-con {
+    justify-content: space-around;
+    display: flex;
+    background: linear-gradient(to right, #030058, #000000, #1E91B3);
+}
+
+.circle {
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 140px;
+}
+
+.text-center {
+    color: white;
+}
+
+.contact {
+    margin-top: 0;
+    position: relative;
+    bottom: 42px;
+    background: linear-gradient(to right, #030058, #000000, #1E91B3);
+}
+
+.contact {
+    color: white;
+    font-size: 25px;
+    padding: 19px;
+    display: flex;
+}
+
+
+
+
+.x-y-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont {
+    height: 149px;
+}
+
+.cdn {
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.donate input[type=text] {
+    font-size: 19px;
+    width: 215px;
+    padding: 9px;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 7px;
+    color: white;
+    background: none;
+}
+
+.donate input {
+    font-size: 19px;
+    width: 465px;
+    padding: 9px;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 7px;
+    color: white;
+    background: none;
+}
+
+.donate {
+    padding: 19px;
+    margin-top: 19px;
+    width: 100%;
+    border: 2px solid white;
+    width: 590px;
+    height: 59vh;
+    border-radius: 12px;
+    background-image: url(cdn.png);
+    background-size: 100%;
+}
+
+.donate ::placeholder {
+    color: white;
+}
+
+.donate input[type=text]::placeholder {
+    color: white;
+}
+
+.don-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.don-flex input {
+    margin-right: 13px;
+}
+
+.donate input[type=email] {
+    width: 465px;
+    font-size: 19px;
+    padding: 9px;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 7px;
+    color: white;
+    background: none;
+}
+
+.donate input[type=email]::placeholder {
+    color: white;
+}
+
+.btn-my {
+    background: none;
+    width: 465px;
+    border-radius: 7px;
+    padding: 5px;
+    border: 2px solid white;
+    font-size: 17px;
+}
+
+.btn-my:hover {
+    background-color: #fff;
+    color: #070707;
+    transition: 0.2s;
+}
+
+.dolar {
+    position: relative;
+    right: 56px;
 }
