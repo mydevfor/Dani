@@ -99,6 +99,14 @@ header {
 
 }
 
+#section-one h1{
+        background: linear-gradient(to right, #000000, darkblue);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 145px;
+}
+
 .white-friend img {
     border-radius: 50px;
 }
