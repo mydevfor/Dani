@@ -92,8 +92,8 @@ header {
     background-image: url(dani-fav-car.png);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 100% 50% 50%;
-    margin-top: 28px;
+    background-size: 100% 100% 50%;
+    margin-top: 1px;
     width: 100%;
     display: flex;
     align-items: center;
