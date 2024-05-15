@@ -89,16 +89,15 @@ header {
 
 #section-one {
     height: 100%;
-    background-image: url(dani-fav-car.png);
+    background-image: url(dani-hummor.png);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 100% 100% 50%;
-    margin-top: 1px;
-    width: 100%;
     display: flex;
+    background-size: 100%;
+    padding: 79px;
     align-items: center;
+    margin-top: 14px;
     justify-content: center;
-
 }
 
 .white-friend img {
