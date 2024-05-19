@@ -89,7 +89,7 @@ header {
 
 #section-one {
     height: 100%;
-    background-image: url(https://lh3.googleusercontent.com/chat_attachment/AP1Ws4sUIrMnajBq-720rqua8mT-8-mpDKJgZ6J2pgQgcINH0Y80hBZKRAt0K02adQzem2ppXpy4hnR-qDm4O6ztTkg8euSS-hyOl3NbATINr35LBGKAx1HIezKbdP8Ugj6sVWhqvV43wmtiDaBgkU6nZfBc8KlEXNs_OVXojxYA7q6h_RFiUJRyGMW9HwiLe0q4cm82laI0D9-6xoWwDE3wiQAm-w5DPJ1gFvDIUNOhqNxf6jtvNAftaDQChYvjvSRYsAPricat1Wm23BGztNCnwBAycdHYslNEicnJsfTNp5q7PBz_I9NIN5Z2MFRtBwykKCQ=w512);
+    background-image: url(DG-hope-sucsses.png);
     background-position: center center;
     background-repeat: no-repeat;
     display: flex;
@@ -294,4 +294,48 @@ header {
 .dolar {
     position: relative;
     right: 56px;
+}
+
+.text-light {
+    color: white;
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 818px) {
+    .internal-header-div a {
+        display: none;
+    }
+
+    .internal-header-div img {
+        width: 50px;
+    }
+
+    .text-light {
+        font-size: 29px;
+        float: right;
+    }
+
+    .width {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media (max-width: 1300px) {
+    .block-in {
+        display: none;
+        overflow-y: hidden;
+    }
+
+    .text-light {
+        font-size: 29px;
+        display: inline;
+    }
+
+}
+
+
+header div img {
+    width: 50px;
 }
